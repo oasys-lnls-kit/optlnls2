@@ -1,6 +1,34 @@
-# optlnls2
+<div align="center">
 
-Modular toolkit for X-ray optics, beamline design, diagnostics, and synchrotron radiation calculations.
+# OPTLNLS2
+
+**Modular framework for X-ray optics, synchrotron radiation, and beamline design at Sirius/LNLS**
+
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+![License](https://img.shields.io/github/license/oasys-lnls-kit/optlnls2)
+![Lint](https://img.shields.io/badge/lint-ruff-yellow)
+![Format](https://img.shields.io/badge/format-ruff-yellow)
+![Status](https://img.shields.io/badge/status-development-orange)
+![Physics](https://img.shields.io/badge/domain-X--ray%20Optics-blueviolet)
+![Facility](https://img.shields.io/badge/Sirius-LNLS-green)
+
+</div>
+
+---
+
+OPTLNLS2 is a modular toolkit for X-ray optics, beamline design,
+diagnostics, and synchrotron radiation calculations. The project aims
+to provide a modern, maintainable, and extensible framework for the
+development and operation of Sirius beamlines.
+
+## Installation
+
+```bash
+git clone https://github.com/oasys-lnls-kit/optlnls2.git
+cd optlnls2
+
+pip install .
+```
 
 ## How to use it?
 
