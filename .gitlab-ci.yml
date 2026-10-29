@@ -1,0 +1,8 @@
+
+
+include:
+  - component: $CI_SERVER_FQDN/SOL/ci-cd-components/python-pytest@1.0.0
+    inputs:
+      job-name: "automatic-tests"
+
+

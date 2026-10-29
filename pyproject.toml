@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "optlnls2"
+authors = [
+  { name="João Pedro Imbriani Astolfo", email="joao.astolfo@lnls.br" },
+]
+description = "Modular toolkit for X-ray optics, beamline design, diagnostics, and synchrotron radiation calculations."
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+requires-python = ">=3.10"
+dynamic = ["version"]
+
+[project.optional-dependencies]
+dev = [
+  "pre-commit",
+  "pytest",
+]
+all = [
+  "optlnls2[dev]"
+]
+
+[project.scripts]
+optlnls2 = "optlnls2.__main__:entrypoint"
+
+[tool.setuptools_scm]
+version_file = "src/optlnls2/__version__.py"
+
+[tool.setuptools.packages.find]
+where = ["src"]
