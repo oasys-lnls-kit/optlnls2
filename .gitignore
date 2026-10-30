@@ -16,3 +16,5 @@ coverage.xml
 .pytest_cache/
 
 src/optlnls2/__version__.py
+
+/.vscode
